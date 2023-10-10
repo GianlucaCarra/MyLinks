@@ -78,11 +78,17 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  animation: slide-out .4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+  transition: .2s;
+  cursor: pointer;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in .4s forwards;
 }
 
 #switch span {
@@ -126,6 +132,7 @@ body {
   border: 1.5px solid var(--text-color);
   background: var(--surface-color-hover);
   cursor: pointer;
+  transition: .2s;
 }
 
 #links ul a li{
@@ -152,11 +159,12 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--text-color);
+  border-radius: 50%;
 }
 
 #social-links a:hover {
   background-color: var(--highlight-color);
-  border-radius: 50%;
+  transition: .2s;
 }
 
 footer p {
@@ -177,5 +185,23 @@ footer p {
 
   .light {
     --bg-mobile: url(./assets/bg-desktop-light.png)
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  } 
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
