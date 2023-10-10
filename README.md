@@ -5,10 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">License</a>
 </p>
 
 <p align="center">
@@ -19,22 +18,22 @@
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
+  <img alt="MyLinks cover" src=".github/Cover.png" width="100%">
 </p>
 
 ## 🚀 Technologies
 
 This project was developed with the following technologies:
 
-- HTML e CSS
+- HTML and CSS
 - JavaScript
-- Git e Github
+- Git and Github
 
 ## 💻 Project
 
 The project shows my link tree.
 
-## :memo: License
+## License
 
 This project is under the MIT license.
 
